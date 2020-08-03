@@ -25,4 +25,5 @@ jobs:
       - name: Download a single artifact
         uses: actions/upload-artifact@v2
         with:
-          name: dist/ctrl-space-org-ex-app.js
+          name: ex-app
+          path: dist/ctrl-space-org-ex-app.js 
